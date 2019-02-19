@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Piano">
+        <menu>
+            <item
+                android:id="@+id/nav_interrato"
+                android:icon="@drawable/ic_action_name_minus_one"
+                android:title="Interrato" />
+            <item
+                android:id="@+id/nav_terra"
+                android:icon="@drawable/ic_action_name_zero"
+                android:title="Terra" />
+            <item
+                android:id="@+id/nav_primo"
+                android:icon="@drawable/ic_action_name_plus_one"
+                android:title="Primo" />
+            <item
+                android:id="@+id/nav_secondo"
+                android:icon="@drawable/ic_action_name_plus_two"
+                android:title="Secondo" />
+        </menu>
+    </item>
+
+    <item android:title="Altro">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_action_name_info"
+                android:title="Info" />
+        </menu>
+    </item>
+
+</menu>
